@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
 
-# Load the dataset
+# Load the dataset as Pandas DataFrame.
 df = pd.read_csv('data/cleveland_heart_disease', header=None)
 df.info()
 # Assign column-names(headers)
